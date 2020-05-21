@@ -12,9 +12,8 @@ usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), m
   #binding.pry 
   if !main_hash[key] 
     main_hash[key] = { }
-    binding.pry 
   end
-  
+  binding.pry
   
 end 
   
