@@ -10,6 +10,8 @@ def load_library(usable_emoticons)
 
 usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), main_hash|
   binding.pry 
+  
+end 
 
 def get_japanese_emoticon
   # code goes here
