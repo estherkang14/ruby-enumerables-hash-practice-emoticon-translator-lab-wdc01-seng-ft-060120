@@ -29,10 +29,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   jap_emoji = hello[:japanese]
   eng_emoji = hello[:english]
   
-  
-  end 
-  
-  
+  end
   
 end
 
