@@ -9,7 +9,12 @@ def load_library(usable_emoticons)
   usable_emoticons = YAML.load_file('lib/emoticons.yml')
 
 usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), main_hash|
-  binding.pry 
+  #binding.pry 
+  if !main_hash[key] 
+    main_hash[key] = { }
+    binding.pry 
+  end
+  
   
 end 
   
