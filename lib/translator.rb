@@ -10,9 +10,9 @@ def load_library(usable_emoticons)
   
 usable_emoticons_lib = {'meaning' => {}, 'emoji' => {} }
 
-usable_emoticons.each do |mean, jap| 
-  usable_emoticons_lib['meaning'][jap[1]] = eng 
-  usable_emoticons_
+usable_emoticons.each do |name, translated| 
+  usable_emoticons_lib['meaning'][translated[1]] = name
+  usable_emoticons_lib['emoji'][translated[0]] = translated[1] 
  
   
 end
