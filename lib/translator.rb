@@ -31,6 +31,8 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   
   if load_lib_emo.include?(emoticon)
   return jap_emoji
+else
+  return "Sorry, that emoticon was not found"
 end 
   
  #binding.pry 
