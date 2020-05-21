@@ -24,7 +24,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   load_lib_emo = load_library(usable_emoticons)
   #binding.pry 
   
-  correct_emoji = emoticons.values.find {|faces| faces[0] == emoticon}
+  correct_emoji = load_lib_emo.values.find {|faces| faces[0] == emoticon}
   emoji == nil ? "Sorry, that emoticon was not found" : correct_emoji[1]
   
   #binding.pry
