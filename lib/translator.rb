@@ -24,7 +24,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   load_lib_emo = load_library(usable_emoticons)
   #binding.pry 
   hello = 0 
-  load_lib_emo[helo].each do |name_of_emoji, hash_of_name|
+  load_lib_emo[hello].each do |name_of_emoji, hash_of_name|
    binding.pry 
    
     
