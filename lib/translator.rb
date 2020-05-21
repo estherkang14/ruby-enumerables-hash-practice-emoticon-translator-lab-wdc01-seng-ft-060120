@@ -29,7 +29,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   jap_emoji = hello[:japanese]
   eng_emoji = hello[:english]
   
-  if load_lib_emo.include?(emoticon)
+  if hello.include?(emoticon)
   return jap_emoji
 else
   return "Sorry, that emoticon was not found"
