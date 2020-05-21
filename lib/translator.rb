@@ -8,8 +8,7 @@ def load_library(usable_emoticons)
   # code goes here
   usable_emoticons = YAML.load_file('lib/emoticons.yml')
   
-usable_emoticons_lib = {'meaning' => {}, 
-'emoticon_lang' => [ ]} }
+usable_emoticons_lib = {'meaning' => {}, 'emoticon_lang' => {} }
 
 usable_emoticons.each do |name, value| 
   eng = value[0]
