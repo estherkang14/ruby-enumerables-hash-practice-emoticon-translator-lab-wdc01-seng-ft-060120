@@ -8,7 +8,8 @@ def load_library(usable_emoticons)
   # code goes here
   usable_emoticons = YAML.load_file('lib/emoticons.yml')
   
- final_emoticon_library = usable_emoticons.each_with_object({}) 
+ key_index = 0 
+ while key_index < usable_emoticons[key_index].count 
  
   
 end
