@@ -34,7 +34,7 @@ pls_output = nil
 
 load_lib_emo.each do |yellow, blue|
 end 
-  
+  binding.pry 
  #binding.pry 
 end 
 
