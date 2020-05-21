@@ -4,12 +4,12 @@ require "yaml"
 usable_emoticons = YAML.load_file('lib/emoticons.yml')
 #binding.pry 
 
-def load_library(data)
+def load_library(usable_emoticons)
   # code goes here
   usable_emoticons = YAML.load_file('lib/emoticons.yml')
   
+ final_emoticon_library = usable_emoticons.each_with_object({}) 
  
-  end 
   
 end
 
