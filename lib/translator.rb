@@ -7,17 +7,8 @@ usable_emoticons = YAML.load_file('lib/emoticons.yml')
 def load_library(usable_emoticons)
   # code goes here
   usable_emoticons = YAML.load_file('lib/emoticons.yml')
-  
-usable_emoticons_lib = {'meaning' => {}, 'emoji' => {} }
 
-usable_emoticons.each do |name, translated| 
-  usable_emoticons_lib['meaning'][translated[1]] = name
-  usable_emoticons_lib['emoji'][translated[0]] = translated[1] 
-end
-
-usable_emoticons_lib
-  binding.pry 
-end
+usable_emoticons_lib = 
 
 def get_japanese_emoticon
   # code goes here
