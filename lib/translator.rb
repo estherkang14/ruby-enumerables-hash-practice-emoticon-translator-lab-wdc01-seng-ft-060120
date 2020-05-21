@@ -29,10 +29,10 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   jap_emoji = hello[:japanese]
   eng_emoji = hello[:english]
   
-  if eng_emoji == emoticon 
-  return jap_emoji
-else
-  return "Sorry, that emoticon was not found"
+first_thing = nil 
+pls_output = nil 
+
+load_lib_emo.each do |yellow, blue|
 end 
   
  #binding.pry 
