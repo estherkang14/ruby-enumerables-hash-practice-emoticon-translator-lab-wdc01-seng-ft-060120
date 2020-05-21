@@ -33,7 +33,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   return jap_emoji
 end 
   
- binding.pry 
+ #binding.pry 
 end 
 
 
