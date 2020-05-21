@@ -1,5 +1,5 @@
 # require modules here
-require 'pry'
+require "pry"
 require "yaml"
 usable_emoticons = YAML.load_file('lib/emoticons.yml')
 #binding.pry 
