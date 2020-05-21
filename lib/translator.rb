@@ -29,7 +29,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   jap_emoji = hello[:japanese]
   eng_emoji = hello[:english]
   
-  
+  load_lib_emo.include?(emoticon)
   
  binding.pry 
 end 
