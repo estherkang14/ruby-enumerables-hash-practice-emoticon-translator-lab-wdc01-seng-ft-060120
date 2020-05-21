@@ -26,7 +26,8 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   
   #binding.pry
   load_lib_emo.find do |name_of_emoji, hash_of_name|
- hash_of_name.include? (emoticon)
+ 
+ if hash_of_name.include? (emoticon)
 
   
 
