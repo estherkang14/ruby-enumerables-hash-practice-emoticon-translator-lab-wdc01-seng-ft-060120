@@ -20,14 +20,13 @@ usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), m
 end 
 end 
 
-def get_japanese_emoticon(
-  load_library(usable_emoticons)
-  
- 
+def get_japanese_emoticon(emoticon)
+  #load_library(usable_emoticons)
 end
 
 def get_english_meaning(emoticon)
   load_library(usable_emoticons)
-  usable
+  
+  binding.pry 
   
 end
