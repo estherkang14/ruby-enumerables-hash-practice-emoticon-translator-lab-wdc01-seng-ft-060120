@@ -24,10 +24,10 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   load_lib_emo = load_library(usable_emoticons)
   #binding.pry 
   
- load_lib_emo.find do |name_of_emoji, hash_of_name|
-  hello = load_lib_emo[name_of_emoji]
-  jap_emoji = hello[:japanese]
-  eng_emoji = hello[:english]
+ #load_lib_emo.find do |name_of_emoji, hash_of_name|
+ # hello = load_lib_emo[name_of_emoji]
+ # jap_emoji = hello[:japanese]
+ # eng_emoji = hello[:english]
   
 first_thing = nil 
 pls_output = nil 
