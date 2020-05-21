@@ -13,8 +13,10 @@ usable_emoticons_lib = {'meaning' => {}, 'emoji' => {} }
 usable_emoticons.each do |name, translated| 
   usable_emoticons_lib['meaning'][translated[1]] = name
   usable_emoticons_lib['emoji'][translated[0]] = translated[1] 
- 
-  
+end
+
+usable_emoticons_lib
+  binding.pry 
 end
 
 def get_japanese_emoticon
