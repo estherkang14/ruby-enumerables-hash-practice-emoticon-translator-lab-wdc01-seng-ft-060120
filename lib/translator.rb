@@ -32,9 +32,8 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
  
 
 
-end
 
-  end
+  
   
 end
 
