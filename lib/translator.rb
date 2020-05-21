@@ -36,6 +36,7 @@ def get_english_meaning(usable_emoticons, emoticon)
   
   load_lib_emo.each do |hello, goodbye|
     binding.pry
+  end 
   
   
 end
