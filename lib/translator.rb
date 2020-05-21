@@ -23,7 +23,7 @@ end
 def get_japanese_emoticon(usable_emoticons, emoticon)
   load_lib_emo = load_library(usable_emoticons)
   binding.pry 
-  load_lib_emo.each do |
+  load_lib_emo.each do |eng_emo, jap_emo|
   
 end
 
