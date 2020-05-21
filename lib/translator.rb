@@ -11,7 +11,7 @@ def load_library(usable_emoticons)
 usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), main_hash|
   #binding.pry 
   if !main_hash[key] 
-    main_hash[key] = {:english => ,:japanese => }
+    main_hash[key] = {:english => "",:japanese => ""}
   end
   
   binding.pry
