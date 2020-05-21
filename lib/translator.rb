@@ -11,8 +11,8 @@ def load_library(usable_emoticons)
 usable_emoticons_lib = {'meaning' => {'emoticon_lang' => [ ]} }
 
 usable_emoticons.each do |name, value| 
-  english = value[0]
-  japanese = value[1] 
+  eng = value[0]
+  jap = value[1] 
  
   
 end
