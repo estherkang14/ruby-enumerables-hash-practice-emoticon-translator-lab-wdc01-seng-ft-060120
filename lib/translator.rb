@@ -13,7 +13,7 @@ usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), m
   if !main_hash[key] 
     eng_emo = usable_emoticons[key][0]
     jap_emo = usable_emoticons[key][1]
-    main_hash[key] = {:english => "#{eng_emo}",:japanese => ""}
+    main_hash[key] = {:english => "#{eng_emo}",:japanese => "#{jap_emo}"}
   end
   
   binding.pry
