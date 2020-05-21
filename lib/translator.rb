@@ -8,7 +8,8 @@ def load_library(data)
   # code goes here
   usable_emoticons = YAML.load_file('lib/emoticons.yml')
   
-  final_emoticon_library = 
+  final_emoticon_library = data.each_with_object({ }) do |(key, value), final_hash| 
+    binding.pry 
   
 end
 
