@@ -31,6 +31,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   
   load_lib_emo.include?(emoticon)
   
+  
  binding.pry 
 end 
 
