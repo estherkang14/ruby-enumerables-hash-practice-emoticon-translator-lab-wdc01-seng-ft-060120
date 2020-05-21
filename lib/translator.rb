@@ -25,7 +25,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
   #binding.pry 
   load_lib_emo.each do |eng_emoji, jap_emoji|
     #binding.pry 
-    if emoticon == eng_emoji[1]
+    if emoticon == eng_emoji
       return jap_emoji[1] 
     end 
    binding.pry 
