@@ -8,7 +8,8 @@ def load_library(usable_emoticons)
   # code goes here
   usable_emoticons = YAML.load_file('lib/emoticons.yml')
 
-usable_emoticons_lib = 
+usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), main_hash|
+  binding.pry 
 
 def get_japanese_emoticon
   # code goes here
