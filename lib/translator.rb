@@ -38,7 +38,9 @@ def get_english_meaning(usable_emoticons, emoticon)
   load_lib_emo = load_library(usable_emoticons)
   
   load_lib_emo.each do |name_of_emoji, goodbye|
-   if 
+   if value[:japanese] == emoticon
+     return name_of_emoji
+   end 
   end 
   
   
