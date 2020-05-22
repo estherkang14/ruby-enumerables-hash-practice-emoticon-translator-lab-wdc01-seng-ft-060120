@@ -22,7 +22,7 @@ end
 
 def get_japanese_emoticon(usable_emoticons, emoticon)
   load_lib_emo = load_library(usable_emoticons)
-  #binding.pry 
+  binding.pry 
   
  load_lib_emo.each do |name_of_emoji, value|
    if value[:english] == emoticon 
@@ -37,8 +37,7 @@ def get_english_meaning(usable_emoticons, emoticon)
   load_lib_emo = load_library(usable_emoticons)
   
   load_lib_emo.each do |name_of_emoji, value|
-   if value[:japanese] == emoticon
-     binding.pry
+   if value[:japanese] == emoticon 
      return name_of_emoji
    end 
   end 
