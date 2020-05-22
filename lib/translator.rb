@@ -29,7 +29,7 @@ def get_japanese_emoticon(usable_emoticons, emoticon)
      return value[:japanese]
   end
 end 
-  
+  return "Sorry, that emoticon was not found"
 end
 
 
@@ -41,6 +41,6 @@ def get_english_meaning(usable_emoticons, emoticon)
      return name_of_emoji
    end 
   end 
-  
+  return "Sorry, that emoticon was not found"
   
 end
