@@ -5,8 +5,7 @@ usable_emoticons = YAML.load_file('lib/emoticons.yml')
 #binding.pry 
 
 def load_library(usable_emoticons)
-  
-  usable_emoticons = YAML.load_file('lib/emoticons.yml')
+   usable_emoticons = YAML.load_file('lib/emoticons.yml')
 
 usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), main_hash|
   #binding.pry 
@@ -18,7 +17,6 @@ usable_emoticons_lib = usable_emoticons.each_with_object({}) do |(key, value), m
     #binding.pry
   end
  # binding.pry 
- 
 end 
 end 
 
@@ -40,6 +38,7 @@ def get_english_meaning(usable_emoticons, emoticon)
   
   load_lib_emo.each do |name_of_emoji, value|
    if value[:japanese] == emoticon
+     binding.pry
      return name_of_emoji
    end 
   end 
